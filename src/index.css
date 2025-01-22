@@ -72,6 +72,19 @@ p {
   gap: 14px;
 }
 
+.dropZone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aqua;
+  border-radius: 0.5rem;
+  height: 30vh;
+}
+
+.drag-over {
+  background-color: aquamarine !important;
+}
+
 .todoItem {
   display: flex;
   align-items: center;
